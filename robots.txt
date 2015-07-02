@@ -1,0 +1,32 @@
+#Google Search Engine Robot
+User-agent: Googlebot
+Allow: /?lang=
+Allow: /search?q=%23
+Disallow: /*?
+Disallow: /account/not_my_account
+
+#Yahoo! Search Engine Robot
+User-Agent: Slurp
+Allow: /?lang=
+Allow: /search?q=%23
+Disallow: /*?
+Disallow: /account/not_my_account
+
+
+# Every bot that might possibly read and respect this file.
+User-agent: *
+Allow: /?lang=
+Allow: /hashtag/*?src=
+Allow: /search?q=%23
+Disallow: /*?
+
+Disallow: /account/not_my_account
+
+Disallow: /oauth
+Disallow: /1/oauth
+
+# Wait 1 second between successive requests. See ONBOARD-2698 for details.
+Crawl-delay: 1
+
+#sitemap
+Sitemap: http://www.anniversify.com/sitemap.xml
