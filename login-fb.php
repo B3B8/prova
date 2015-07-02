@@ -31,7 +31,6 @@ try {
 			$_SESSION["joinsocial"]=$joinsocial;redirect('/join');
 			#header("Location: /join");
 			};
-		
     } else {
         # For testing purposes, if there was an error, let's kill the script
         die("There was an error.");
