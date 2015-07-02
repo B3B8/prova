@@ -1,0 +1,6 @@
+#Google Search Engine Robot
+User-agent: Googlebot
+Allow: /?lang=
+Allow: /search?q=%23
+Disallow: /*?
+Disallow: /account/not_my_account
